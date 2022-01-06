@@ -22,6 +22,13 @@
         <p>Data: <span th:text="${evento.data}"></span></p>
         <p>Horário: <span th:text="${evento.horario}"></span></p>
     </div>
+
+    <form action="post">
+        Nome: <input type="text" value="" name="nomeConvidado"/>
+        RG: <input type="text" value="" name="rg"/>
+        <button class="waves-effect waves-light btn" type="submit">Salvar</button>
+    </form>
+
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="materialize/js/materialize-min.js"></script>
